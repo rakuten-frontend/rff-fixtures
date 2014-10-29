@@ -32,3 +32,6 @@ $ yo rff
 $ grunt <something>
   # Test grunt tasks with rff-fixtures.
 ```
+
+## License
+Copyright (c) 2014 Rakuten, Inc. Licensed under the [MIT License](LICENSE).
