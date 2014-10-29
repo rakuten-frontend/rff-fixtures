@@ -1,8 +1,8 @@
 doctype html
-html
+html.no-js
   head
     meta(charset='UTF-8')
-    title Rff Fixtures
+    title rff-fixtures
     // build:css /css/app.css
     // bower:css
     // endbower
@@ -10,11 +10,13 @@ html
     link(rel='stylesheet', href='/css/glyphs.css')
     link(rel='stylesheet', href='/css/main.css')
     // endbuild
+    // build:js /js/modernizr.js
+    script(src='/bower_components/modernizr/modernizr.js')
+    // endbuild
   body
-    h1 Rff Fixtures
+    h1 rff-fixtures
     // build:js /js/app.js
     // bower:js
-    script(src='/bower_components/modernizr/modernizr.js')
     script(src='/bower_components/jquery/dist/jquery.js')
     // endbower
     script(src='/js/main.js')
