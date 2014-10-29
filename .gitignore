@@ -27,8 +27,10 @@ dist/
 .bowerrc
 .csslintrc
 .editorconfig
+.gitattributes
 .jshintrc
 .npmrc
+package.json
 Gruntfile.js
 grunt/
 test/
