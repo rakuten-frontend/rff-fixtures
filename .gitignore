@@ -34,3 +34,5 @@ package.json
 Gruntfile.js
 grunt/
 test/
+
+!utils/package.json

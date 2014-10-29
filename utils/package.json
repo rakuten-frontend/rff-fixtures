@@ -1,0 +1,10 @@
+{
+  "name": "rff-fixtures",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "del": "^0.1.3"
+  }
+}
