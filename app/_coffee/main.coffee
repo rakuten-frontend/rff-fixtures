@@ -1,1 +1,1 @@
-console.log 'Welcome to Rff Fixtures!'
+console.log 'Welcome to rff-fixtures!'
