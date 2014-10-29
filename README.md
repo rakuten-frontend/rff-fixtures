@@ -13,8 +13,12 @@ rff-fixtures helps to make generator-rff more stable.
 rff-fixtures/
 ├── app/                   : Application files
 │   ├── inc/               : SSI partials
-│   ├── _sass/             : Stylesheets
-│   ├── js/                : Scripts
+│   ├── css/               : CSS
+│   ├── _sass/             : Sass
+│   ├── _less/             : Less
+│   ├── _stylus/           : Stylus
+│   ├── js/                : JavaScript
+│   ├── _coffee/           : CoffeeScript
 │   └── img/               : Images
 │       ├── _sprites/      : Base images for spritesheet
 │       └── _glyphs/       : Base SVG files for icon font
