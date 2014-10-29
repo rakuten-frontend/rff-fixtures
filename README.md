@@ -31,10 +31,17 @@ This is typical usage, I think.
 
 ```shell
 $ git clone https://github.com/rakuten-frontend/rff-fixtures.git && cd rff-fixtures
+$ npm install --prefix utils
+  # Install dependencies for utils command.
 $ yo rff
   # Do NOT override files of rff-fixtures.
 $ grunt <something>
   # Test grunt tasks with rff-fixtures.
+$ utils/clean
+  # Delete generated files to clean up.
+$ yo rff
+  # Generate again using other settings.
+  # ...
 ```
 
 ## License
