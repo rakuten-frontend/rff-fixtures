@@ -1,0 +1,34 @@
+# OS/Editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Bower
+bower_components/
+
+# SASS
+.sass-cache/
+
+# grunt-html-validation
+validation-status.json
+validation-report.json
+
+# grunt-ftp-deploy
+.ftppass
+
+# Excluded Files
+dist/
+.tmp/
+
+.bowerrc
+.csslintrc
+.editorconfig
+.jshintrc
+.npmrc
+Gruntfile.js
+grunt/
+test/
