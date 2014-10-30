@@ -3,6 +3,17 @@
   "version": "0.0.0",
   "dependencies": {
     "jquery": "~1.11.1",
-    "modernizr": "~2.8.3"
+    "modernizr": "~2.8.3",
+    "colors": "~2.0.0"
+  },
+  "overrides": {
+    "colors": {
+      "main": [
+        "css/colors.css",
+        "sass/colors.scss",
+        "less/colors.less",
+        "stylus/colors.styl"
+      ]
+    }
   }
 }
