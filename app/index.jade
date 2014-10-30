@@ -5,6 +5,7 @@ html.no-js
     title rff-fixtures
     // build:css /css/app.css
     // bower:css
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
     link(rel='stylesheet', href='/bower_components/colors/css/colors.css')
     // endbower
     link(rel='stylesheet', href='/css/sprites.css')
@@ -15,18 +16,31 @@ html.no-js
     script(src='/bower_components/modernizr/modernizr.js')
     // endbuild
   body
-    h1 rff-fixtures
-    h2 wiredep
-    h3 colors
-    .box-container
-      .box.bg-navy
-      .box.bg-teal
-      .box.bg-yellow
-      .box.bg-maroon
-      .box.bg-silver
+    .container
+      h1 rff-fixtures
+      h2 wiredep
+      h3 colors
+      .row
+        .col-xs-2
+          .box.bg-navy
+        .col-xs-2
+          .box.bg-teal
+        .col-xs-2
+          .box.bg-yellow
+        .col-xs-2
+          .box.bg-orange
+        .col-xs-2
+          .box.bg-maroon
+        .col-xs-2
+          .box.bg-silver
+      h3 moment
+      div
+        code.moment
     // build:js /js/app.js
     // bower:js
     script(src='/bower_components/jquery/dist/jquery.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+    script(src='/bower_components/moment/moment.js')
     // endbower
     script(src='/js/main.js')
     // endbuild

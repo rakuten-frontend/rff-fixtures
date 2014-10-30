@@ -5,6 +5,7 @@
     <title>rff-fixtures</title>
     <!-- build:css /css/app.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="/bower_components/colors/css/colors.css" />
     <!-- endbower -->
     <link rel="stylesheet" href="/css/sprites.css">
@@ -16,19 +17,38 @@
     <!-- endbuild -->
   </head>
   <body>
-    <h1>rff-fixtures</h1>
-    <h2>wiredep</h2>
-    <h3>colors</h3>
-    <div class="box-container">
-      <div class="box bg-navy"></div>
-      <div class="box bg-teal"></div>
-      <div class="box bg-yellow"></div>
-      <div class="box bg-maroon"></div>
-      <div class="box bg-silver"></div>
+    <div class="container">
+      <h1>rff-fixtures</h1>
+      <h2>wiredep</h2>
+      <h3>colors</h3>
+      <div class="row">
+        <div class="col-xs-2">
+          <div class="box bg-navy"></div>
+        </div>
+        <div class="col-xs-2">
+          <div class="box bg-teal"></div>
+        </div>
+        <div class="col-xs-2">
+          <div class="box bg-yellow"></div>
+        </div>
+        <div class="col-xs-2">
+          <div class="box bg-orange"></div>
+        </div>
+        <div class="col-xs-2">
+          <div class="box bg-maroon"></div>
+        </div>
+        <div class="col-xs-2">
+          <div class="box bg-silver"></div>
+        </div>
+      </div>
+      <h3>moment</h3>
+      <div><code class="moment"></code></div>
     </div>
     <!-- build:js /js/app.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/bower_components/moment/moment.js"></script>
     <!-- endbower -->
     <script src="/js/main.js"></script>
     <!-- endbuild -->

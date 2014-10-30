@@ -4,9 +4,17 @@
   "dependencies": {
     "jquery": "~1.11.1",
     "modernizr": "~2.8.3",
-    "colors": "~2.0.0"
+    "bootstrap": "~3.3.0",
+    "colors": "~2.0.0",
+    "moment": "~2.8.3"
   },
   "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
     "colors": {
       "main": [
         "css/colors.css",
