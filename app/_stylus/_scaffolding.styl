@@ -16,3 +16,48 @@ h2,
 
 .glyph
   font-size: 60px
+
+.css3-box
+  display: inline-block
+  position: relative
+  width: 200px
+  height: 200px
+  margin-bottom: 20px
+  perspective: 300px
+  .box-inner
+    display: block
+    position: absolute
+    width: 200px
+    height: 200px
+    font-size: 20px
+    text-align: center
+    line-height: 200px
+    wite-space: nowrap
+    cursor: pointer
+    user-select: none
+    transition: all 350ms, font-size 200ms cubic-bezier(0.68, -1.4, 0.265, 2.4)
+    &:active
+      font-size: 34px
+  .default
+    z-index: 1
+    border: 2px solid #444
+    color: #333
+    background-color: #fff
+    transform: rotateX(0deg)
+    transform-origin: 50% 50% -100px
+  .hover
+    z-index: 0
+    color: #fff
+    background-color: #c00
+    background-image: linear-gradient(to bottom, #c00, #e70)
+    transform: rotateX(90deg)
+    transform-origin: 50% 50% -100px
+  &:hover
+    .default
+      z-index: 0
+      transform: rotateX(-90deg)
+    .hover
+      z-index: 1
+      transform: rotateX(0deg)
+
+
