@@ -56,6 +56,12 @@ html.no-js
       .touch-support Your browser doesn't support Touch Events!
       h2 SSI <small>in Preview Server</small>
       //#include virtual="/inc/partial.html"
+      h2 Image Optimization
+      div
+        img.dummy-img(src='/img/jpeg.jpg', alt='JPEG')
+        img.dummy-img(src='/img/png24.png', alt='PNG24')
+        img.dummy-img(src='/img/png8.png', alt='PNG8')
+        img.dummy-img(src='/img/gif.gif', alt='GIF')
     // build:js /js/app.js
     // bower:js
     script(src='/bower_components/jquery/dist/jquery.js')
