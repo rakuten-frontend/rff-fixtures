@@ -6,6 +6,10 @@ h2,
   margin-bottom: 20px;
 }
 
+.container {
+  margin-bottom: 40px;
+}
+
 .box {
   height: 100px;
 }
@@ -27,7 +31,6 @@ h2,
   position: relative;
   width: 200px;
   height: 200px;
-  margin-bottom: 20px;
   perspective: 300px;
 }
 .css3-box .box-inner {
