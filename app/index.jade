@@ -57,11 +57,12 @@ html.no-js
       h2 SSI <small>in Preview Server</small>
       //#include virtual="/inc/partial.html"
       h2 Image Optimization
-      div
+      .clearfix
         img.dummy-img(src='/img/jpeg.jpg', alt='JPEG')
         img.dummy-img(src='/img/png24.png', alt='PNG24')
         img.dummy-img(src='/img/png8.png', alt='PNG8')
         img.dummy-img(src='/img/gif.gif', alt='GIF')
+        object.dummy-img(data='/img/svg.svg', type='image/svg+xml')
     // build:js /js/app.js
     // bower:js
     script(src='/bower_components/jquery/dist/jquery.js')
