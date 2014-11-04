@@ -3,9 +3,9 @@
 > Fixtures for developing and testing generator-rff.
 
 ## What is this?
-Example application sources for **[generator-rff](https://github.com/rakuten-frontend/generator-rff) development**.
+Sample application sources for **[generator-rff](https://github.com/rakuten-frontend/generator-rff) development**.
 
-Because generator-rff has many and complicated tasks, we need to test and benchmark it with living app sources.  
+generator-rff has many and complicated tasks, so that we need to test and benchmark it with living app sources.  
 rff-fixtures helps to make generator-rff more stable.
 
 ## Structure
