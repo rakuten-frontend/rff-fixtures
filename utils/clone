@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+'use strict';
+
+var path = require('path');
+var fs = require('fs');
+
+var targetDir = path.join(__dirname, '../app/benchmark/');
+var start = 0;
+var end = 99;
+var pad = '00';
+var filename;
+var i;
+
+for (i = start; i <= end; i++) {
+    filename = (pad + i).slice(-pad.length) + '.html';
+    fs.createReadStream(targetDir + 'index.html')
+        .pipe(fs.createWriteStream(targetDir + filename));
+}
