@@ -1,0 +1,29 @@
+doctype html
+html.no-js
+  head
+    meta(charset='UTF-8')
+    title Benchmark
+    // build:css /css/app.css
+    // bower:css
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='/bower_components/colors/css/colors.css')
+    // endbower
+    link(rel='stylesheet', href='/css/sprites.css')
+    link(rel='stylesheet', href='/css/glyphs.css')
+    link(rel='stylesheet', href='/css/main.css')
+    // endbuild
+    // build:js /js/modernizr.js
+    script(src='/bower_components/modernizr/modernizr.js')
+    // endbuild
+  body
+    .container
+      h1 Benchmark
+      //#include virtual="/inc/partial.html"
+    // build:js /js/app.js
+    // bower:js
+    script(src='/bower_components/jquery/dist/jquery.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+    script(src='/bower_components/moment/moment.js')
+    // endbower
+    script(src='/js/main.js')
+    // endbuild
