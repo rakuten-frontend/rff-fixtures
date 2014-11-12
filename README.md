@@ -13,6 +13,10 @@ rff-fixtures helps to make generator-rff more stable.
 rff-fixtures/
 ├── app/                   : Application files
 │   ├── inc/               : SSI partials
+│   ├── benchmark/         : HTML files for benchmarking
+│   │   ├── index.html     : Original HTML
+│   │   ├── 00.html        : Cloned HTML
+│   │   └── ...
 │   ├── css/               : CSS
 │   ├── _sass/             : Sass
 │   ├── _less/             : Less
@@ -43,6 +47,13 @@ $ yo rff
   # Generate again using other settings.
   # ...
 ```
+
+### Utility Commands
+* `utils/clean`  
+  Delete yeoman-generated files.
+
+* `utils/clone`  
+  Clone "app/benchmark/index.html" to "00.html" - "99.html".
 
 ## License
 Copyright (c) 2014 Rakuten, Inc. Licensed under the [MIT License](LICENSE).
