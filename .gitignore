@@ -29,6 +29,7 @@ dist/
 .editorconfig
 .gitattributes
 .jshintrc
+.jscsrc
 .npmrc
 package.json
 Gruntfile.js

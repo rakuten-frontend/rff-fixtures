@@ -13,6 +13,7 @@ var targets = [
     '.editorconfig',
     '.gitattributes',
     '.jshintrc',
+    '.jscsrc',
     '.npmrc',
     'Gruntfile.js',
     'package.json',
