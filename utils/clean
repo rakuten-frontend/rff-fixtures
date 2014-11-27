@@ -19,7 +19,9 @@ var targets = [
     'package.json',
     'validation-report.json',
     'validation-status.json',
-    '.ftppass'
+    '.ftppass',
+    'test/{*,.*}',
+    '!test/bower_components'
 ];
 
 del(targets, {cwd: path.join(__dirname, '..')}, function (err) {
