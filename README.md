@@ -58,4 +58,4 @@ $ yo rff
   Clone "app/benchmark/index.html" and "app/benchmark/index.jade" to "00.\*" - "99.\*".
 
 ## License
-Copyright (c) 2014 Rakuten, Inc. Licensed under the [MIT License](LICENSE).
+Copyright (c) 2014-2015 Rakuten, Inc. Licensed under the [MIT License](LICENSE).
