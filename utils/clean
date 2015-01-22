@@ -5,29 +5,29 @@ var path = require('path');
 var del = require('del');
 
 var targets = [
-    '.tmp',
-    'dist',
-    'grunt',
-    '.bowerrc',
-    '.csslintrc',
-    '.editorconfig',
-    '.gitattributes',
-    '.jshintrc',
-    '.jscsrc',
-    '.npmrc',
-    'Gruntfile.js',
-    'package.json',
-    'validation-report.json',
-    'validation-status.json',
-    '.ftppass',
-    'test/{*,.*}',
-    '!test/bower_components'
+  '.tmp',
+  'dist',
+  'grunt',
+  '.bowerrc',
+  '.csslintrc',
+  '.editorconfig',
+  '.gitattributes',
+  '.jshintrc',
+  '.jscsrc',
+  '.npmrc',
+  'Gruntfile.js',
+  'package.json',
+  'validation-report.json',
+  'validation-status.json',
+  '.ftppass',
+  'test/{*,.*}',
+  '!test/bower_components'
 ];
 
 del(targets, {cwd: path.join(__dirname, '..')}, function (err) {
-    if (err) {
-        throw err;
-        return;
-    }
-    console.log('Project was cleaned up!');
+  if (err) {
+    throw err;
+    return;
+  }
+  console.log('Project was cleaned up!');
 });
