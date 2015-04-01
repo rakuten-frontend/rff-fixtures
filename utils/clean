@@ -15,6 +15,7 @@ var targets = [
   '.jshintrc',
   '.jscsrc',
   '.npmrc',
+  '.yo-rc.json',
   'Gruntfile.js',
   'package.json',
   'validation-report.json',
