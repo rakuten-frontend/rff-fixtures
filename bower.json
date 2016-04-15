@@ -8,6 +8,10 @@
     "colors": "~2.0.0",
     "moment": "~2.8.3"
   },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
   "overrides": {
     "bootstrap": {
       "main": [
