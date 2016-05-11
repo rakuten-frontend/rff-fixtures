@@ -2,7 +2,7 @@
   "name": "rff-fixtures",
   "version": "0.0.0",
   "dependencies": {
-    "jquery": "~1.11.1",
+    "jquery": "~1.12.3",
     "modernizr": "~2.8.3",
     "bootstrap": "~3.3.0",
     "colors": "~2.0.0",
