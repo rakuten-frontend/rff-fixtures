@@ -13,11 +13,11 @@ rff-fixtures helps to make generator-rff more stable.
 rff-fixtures/
 ├── app/                   : Application files
 │   ├── inc/               : SSI partials
-│   ├── benchmark/         : HTML/Jade files for benchmarking
+│   ├── benchmark/         : HTML/Pug files for benchmarking
 │   │   ├── index.html     : Original HTML
-│   │   ├── index.jade     : Original Jade
+│   │   ├── index.pug      : Original Pug
 │   │   ├── 00.html        : Cloned HTML
-│   │   ├── 00.jade        : Cloned Jade
+│   │   ├── 00.pug         : Cloned Pug
 │   │   └── ...
 │   ├── css/               : CSS
 │   ├── _sass/             : Sass
@@ -55,7 +55,7 @@ $ yo rff
   Delete yeoman-generated files.
 
 * `utils/clone`  
-  Clone "app/benchmark/index.html" and "app/benchmark/index.jade" to "00.\*" - "99.\*".
+  Clone "app/benchmark/index.html" and "app/benchmark/index.pug" to "00.\*" - "99.\*".
 
 ## License
 Copyright (c) 2014-2016 Rakuten, Inc.

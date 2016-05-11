@@ -10,12 +10,12 @@ var end = 99;
 var pad = '00';
 
 var html = fs.readFileSync(targetDir + 'index.html');
-var jade = fs.readFileSync(targetDir + 'index.jade');
+var pug = fs.readFileSync(targetDir + 'index.pug');
 var filename;
 var i;
 
 for (i = start; i <= end; i++) {
   filename = (pad + i).slice(-pad.length);
   fs.writeFileSync(targetDir + filename + '.html', html);
-  fs.writeFileSync(targetDir + filename + '.jade', jade);
+  fs.writeFileSync(targetDir + filename + '.pug', pug);
 }
